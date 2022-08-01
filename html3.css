@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 50px;
+  
+
+}
+.boxes{
+   border: 1px solid black;
+   margin: 8px;
+   padding: 5px;
+   border-radius: 10%;
+   box-shadow: 8px 5px 5px rgb(17, 15, 15);
+}
+h3{
+    display:block ;
+    text-align: center;
+    margin-top: 2px;
+    font-size: 20px;
+}
+.scoreboard{
+    display: flex;
+  margin-left: 30px;
+    min-height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 10px;
+  
+}
+.player{
+    width: 100px;
+    min-height: 100px;
+
+padding: 10px;
+margin:15px;
+}
+.computer{
+    width: 100px;
+    min-height: 100px;
+padding: 10px;
+margin-left: 15px;
+}
+h4{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+    align-items: center;
+    font-weight: lighter;
+}
+p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.head{
+    position: relative;
+    top:-25px;
+}
+.computer h4{
+    position: relative;
+    right: 10px;
+}
+button{
+    outline: none;
+    border: none;
+}
+button:hover{
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    line-height: 1em;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#currentchance{
+    display: inline-block;
+    font-size: 28px;
+    color: rgb(187, 19, 19);
+}
+#gameover{
+    text-align: center;
+    font-weight: lighter;
+    color: green;
+    position: relative;
+    top: -260px;
+    left: 30px;
+    display: none;
+
+}
+#currentwin{
+    font-size: large;
+    color: blue;
+    text-align: center;
+    letter-spacing: .1em;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    top: -310px;
+    margin-left: 80px;
+}
+#result{
+    color: rgb(164, 103, 221);
+    text-shadow: 5px 2px 5px;
+    text-align: center;
+    margin-left: 50px;
+}

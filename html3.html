@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+  <script src="https://kit.fontawesome.com/5fe622cb6d.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="html3.css">
+</head>
+<body>
+  <div class="scoreboard">
+    <div class="player"><div><p id="playerscore">0</p></div><h4>player</h4></div>
+    <span><h1 class="head">:</h1></span>
+    <div class="computer"><div><p id="computerscore">0</p></div><h4>computer</h4></div>
+  </div>
+  <div class="container">
+    <div class="boxes"><button onclick="gamefunction('hand')"><img src="./hand.png" class="paper" height="90px" width="100px"><h3>Hand</h3></button></div>
+    <div class="boxes"><button onclick="gamefunction('stone')"><img src="./protest.png" class="stone" height="90px" width="100px"><h3>Stone</h3></button></div>
+    <div class="boxes"><button onclick="gamefunction('scissor')"><img src="./scissors.png" class="scissors" height="90px" width="100px"><h3>scissors</h3></button></div>
+  </div>
+  <div class="text">
+    <h2>you have <p id="currentchance">10</p> chances ! ! against computer.Enjoy the Game</h2>
+  </div>
+  <h1 id="gameover">Gameover</h1>
+  <h1 id="currentwin"></h1>
+  <h1 id="result"></h1>
+  <script src="./html3.js"></script>
+
+</body>
